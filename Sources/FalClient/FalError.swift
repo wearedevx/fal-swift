@@ -1,5 +1,5 @@
 
-enum FalError: Error {
+public enum FalError: Error {
     case httpError(status: Int, message: String, payload: Payload?)
     case invalidResultFormat
     case invalidUrl(url: String)
